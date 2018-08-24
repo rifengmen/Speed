@@ -1,0 +1,40 @@
+{
+  "shop.html": {
+    "href": "shop.html",
+    "resources": [
+      "css/shop.css",
+      "css/iconfont.css",
+      "js/rem.js"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "fenlei.html": {
+    "href": "fenlei.html",
+    "resources": [
+      "css/fenlei.css",
+      "css/iconfont.css",
+      "js/rem.js"
+    ],
+    "refer": [
+      "index.html",
+      "shop.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/index.css",
+      "css/iconfont.css",
+      "js/rem.js"
+    ],
+    "refer": [
+      "fenlei.html",
+      "shop.html"
+    ],
+    "priority": 0
+  }
+}

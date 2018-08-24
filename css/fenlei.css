@@ -1,0 +1,245 @@
+@import url("base.css");
+
+/*头部*/
+header {
+	width: 100%;
+	height: 0.88rem;
+	padding: 0 0.24rem;
+	position: fixed;
+	top: 0;
+	font-size: 0.3rem;
+	color: rgba(0,0,0,0.9);
+	z-index: 10;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header>.position,header>.position>i {
+	font-size: 0.3rem;
+	color: #3EE3FB;
+}
+header>.sousuo {
+	font-size: 0.26rem;
+	color: rgba(0,0,0,0.3);
+}
+header>.sousuo>i {
+	line-height: 0.56rem;
+	font-size: 0.3rem;
+}
+/*nav部分*/
+.nav {
+	width: 100%;
+	height: 0.8rem;
+	background: -webkit-linear-gradient(left,#3ee3fb,#32b9ff);
+	position: fixed;
+	top: 0.88rem;
+	z-index: 10;
+	display: flex;
+}
+.nav-left {
+	width: 6.7rem;
+	height: 100%;
+	padding: 0.24rem;
+	/*overflow: hidden;*/
+	/*overflow-x: scroll;*/
+}
+.nav-left>ul {
+	width: 13.9rem;
+	height: 100%;
+	font-size: 0.24rem;
+	color: rgba(0,0,0,0.3);
+}
+.nav-left>ul >li {
+	display: inline-block;
+	width: ;
+	margin-right: 0.48rem;
+}
+.nav-left>ul >.hot {
+	color: #FFFFFF;
+	font-weight: 700;
+}
+.nav>i {
+	display: inline-block;
+	width: 0.8rem;
+	height: 100%;
+	font-size: 0.26rem;
+	color: rgba(0,0,0,0.3);
+	text-align: center;
+	line-height: 0.8rem;
+	background-color: #32B9FF;
+	
+}
+
+/*推荐商家分类选项*/
+.recommend-fl {
+	width: 100%;
+	height: 0.72rem;
+	padding: 0.24rem;
+	position: fixed;
+	top: 1.68rem;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.24rem;
+	background-color: #ffffff;
+}
+.recommend-fl>li>a {
+	color: #000000;
+	opacity: 0.5;
+}
+.recommend-fl>.hot>a {
+	 color: #030303;
+	 opacity: 0.8;
+}
+/*推荐商家列表*/
+.recommend-shop {
+	width: 100%;
+	height: 9.96em;
+	margin-top: 2.4rem;
+	/*overflow: hidden;*/
+}
+.recommend-shop-ul {
+	width: 100%;
+	height: 18.2rem;
+}
+.recommend-shop-ul>li {
+	width: 100%;
+	height: 3.4rem;
+	padding: 0.24rem;
+	border-bottom: 0.02rem #F0F0F0 solid;
+	background-color: #FFFFFF;
+	font-size: 0.22rem;
+}
+.recommend-shop-ul>li>a {
+	 display: flex;
+}
+.recommend-shop-ul>li i {
+	font-size: 0.22rem;
+	line-height: 2;
+}
+.left-img {
+	width: 1.4rem;
+	height: 1.2rem;
+	border-radius: 0.1rem;
+	background-size: cover;
+}
+.right-text {
+	width: 100%;
+	height: 100%;
+	margin-left: 0.24rem;
+	color: #000000;
+}
+.li01 {
+	background-image: url(../img/li01.png);
+}
+.li02 {
+	background-image: url(../img/li02.png);
+}
+.li03 {
+	background-image: url(../img/li03.png);
+}
+.li04 {
+	background-image: url(../img/li04.png);
+}
+.li05 {
+	background-image: url(../img/li05.png);
+}
+.right-text>h3 {
+	opacity: 0.9;
+}
+.right-text>.iconxx i {
+	color: #FFD000;
+}
+.right-text>.iconxx>span {
+	opacity: 0.7;
+}
+.yj {
+	margin: 0 0.48rem;
+}
+.v {
+	display: inline-block;
+	width: 1rem;
+	height: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 0.04rem;
+	background-color: #3EE3FB;
+	float: right;
+}
+ .delivery {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .delivery-left {
+ 	display: inline-block;
+	opacity: 0.7;
+}
+.delivery-right {
+	display: inline-block;
+	float: right;
+	opacity: 0.5;
+}
+.label .black {
+	text-align: center;
+	border: 0.02rem rgba(0,0,0,0.5) solid;
+	border-radius: 0.04rem;
+	opacity: 0.7;
+}
+.label .red {
+	color: #E6460A;
+}
+.label>span {
+	margin-right: 0.24rem;
+}
+.youhui {
+	border-top: 0.02rem rgba(0,0,0,0.5) dashed;
+	margin-top: 0.1rem;
+	padding: 0.1rem 0;
+	opacity: 0.7;
+}
+.youhui div {
+	margin: 0.1rem 0.1rem 0.1rem 0;
+}
+.new {
+	background-color: #70BC46;
+	border-radius: 0.04rem;
+	color: #FFFFFF;
+}
+.subtract {
+	background-color: #F07373;
+	border-radius: 0.04rem;
+	color: #FFFFFF;
+}
+
+/*tab栏*/
+.tab {
+	width: 100%;
+	height: 0.98rem;
+	padding: 0 0.24rem;
+	font-size: 0.22rem;
+	background-color: #ffffff;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+}
+.tab>li>a>i {
+	color: #000000;
+	opacity: 0.4;
+}
+.tab>li>a>p {
+	color: #000000;
+	opacity: 0.4;
+}
+.tab>.hot>a>i {
+	color: #32b9ff;
+	opacity: 1;
+}
+.tab>.hot>a>p {
+	color: #32b9ff;
+	opacity: 1;
+}
