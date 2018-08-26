@@ -17,7 +17,7 @@ header {
 /*背景蓝*/
 div.blue {
 	width:100%;
-	height: 3.27rem;
+	height: 2.39rem;
 	padding: 0 0.24rem;
 	background-color: #3EE3FD;
 }
@@ -28,6 +28,7 @@ div.blue {
 	background-color: #FFFFFF;
 	border-radius: 0.1rem;
 	color: #3EE3FB;
+	display: flex;
 }
 .name>.left {
 	width: 1.57rem;
@@ -40,10 +41,110 @@ div.blue {
 	background-image: url(../img/my.png);
 	background-size: cover;
 }
-
-
-
-
+.name>.right {
+	width: 5.45rem;
+	height: 1.57;
+	padding: 0.24rem;
+	display: flex;
+	flex-direction: column;
+}
+.name>.right>h1 {
+	font-size: 0.26rem;
+}
+.name>.right>.icon {
+	width: 4.97rem;
+	font-size: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.name>.right>.icon>div:nth-child(1) {
+	width: 2.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.name>.right>.icon>div>span:nth-child(1)>i {
+	font-size: 0.2rem;
+	color: #ff9f23;
+}
+.name>.right>.icon>div>span:nth-child(2) {
+	width: 0.6rem;
+	height: 0.3rem;
+	text-align: center;
+	background-color: #3EE3FB;
+	color: #FFFFFF;
+	border-radius: 0.1rem;
+}
+.name>.right>.icon>i {
+	color: rgba(0,0,0,0.5);
+}
+.name>.right>.phone {
+	font-size: 0.22rem;
+}
+.name>.right>.phone>i {
+	color: rgba(0,0,0,0.3);
+}
+/*钱币部分*/
+.money {
+	width: 7.02rem;
+	height: 1.21rem;
+	margin: 0.24rem;
+	margin-top: -0.58rem;
+	background-color: #FFFFFF;
+	border-radius: 0.1rem;
+	font-size: 0.24rem;
+	color: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0rem 0.03rem 0.07rem 0rem rgba(62, 227, 251, 0.35);
+}
+.money>div {
+	text-align: center;
+}
+.money>div>div:nth-child(1) {
+	color: #3EE3FB;
+}
+.money>div>div>i {
+	color: #FF9F23;
+}
+.money>div:nth-child(2)>div>i {
+	color: #35adf9;
+}
+.money>div:nth-child(3)>div>i {
+	color: #64d850 ;
+}
+/*地址客服部分*/
+.location {
+	width: 7.02rem;
+	height: 2.7rem;
+	margin: 0.24rem;
+	padding: 0.12rem 0.24rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: #FFFFFF;
+	box-shadow: 0rem 0.03rem 0.07rem 0rem rgba(62, 227, 251, 0.35);
+}
+.location>div {
+	width: 100%;
+	height: 0.02rem;
+	background-color: rgba(0,0,0,0.1);
+}
+.location>a {
+	font-size: 0.24rem;
+	color: rgba(0,0,0,0.6);
+}
+.location>a>i {
+	font-size: 0.46rem;
+	margin-right: 0.24rem;
+	color: #4bc6ff;
+}
+.location>a:nth-child(3)>i {
+	color: #f63788;
+}
+.location>a:nth-child(5)>i {
+	color: #71ec41;
+}
 
 
 
