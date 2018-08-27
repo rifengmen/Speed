@@ -213,12 +213,13 @@ div.cart {
 	height: 0.8rem;
 	border-radius: 50%;
 	background-color: #808080;
-	text-align: center;
-	line-height: 0.6rem;
 	position: fixed;
 	left: 0.24rem;
 	bottom: 0.32rem;
 	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .cart>i {
 	font-size: 0.5rem;

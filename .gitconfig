@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = 忧郁xiao流氓
+	email = 42616678+rifengmen@users.noreply.github.com
+[core]
+	editor = emacs
