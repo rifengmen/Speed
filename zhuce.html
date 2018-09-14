@@ -23,27 +23,33 @@
 	<div class="windows">
 		<div class="name">
 			<span></span>
-			<input type="text" name="" id="" placeholder="请输入您的手机号" />
+			<input type="text" name="" id="username" placeholder="请输入您的手机号" />
 		</div>
-		<div class="verification">
+		<div>
 			<div>
 				<span></span>
-			    <input type="text" name="" id="" placeholder="请输入验证码" />
+			    <input type="text" name="" id="verification" placeholder="请输入验证码" />
 			</div>
 			<button type="submit">发送验证码</button>
 		</div>
-		<div class="password">
+		<div>
 			<span></span>
-			<input type="text" name="" id="" placeholder="请输入您设置的密码" />
+			<input type="text" name="" id="password" placeholder="请输入您设置的密码" />
 		</div>
-		<div class="submit">
+		<a href="denglu.html" class="submit">
 			<button type="submit">注册</button>
-		</div>
+		</a>
 		<div class="other">
 			<a href="#">忘记密码？</a>
-			<a href="#">已有账号？请登录</a>
+			<a href="denglu.html">已有账号？请登录</a>
 		</div>
 	</div>
+	
+	<!--警示框部分-->
+	<div id="unWrong">手机号码错误</div>
+	<div id="pwWrong">密码错误</div>
+	<div id="vcWrong">验证码错误</div>
+	
 	<!--第三方登录-->
 	<div class="thirdparty">
 		<p>请使用第三方登录</p>

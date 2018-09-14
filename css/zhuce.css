@@ -45,7 +45,7 @@ header {
 	background-color: #3EE3FB;
 	outline: none;
 }
-.windows>.verification {
+.windows>div:nth-child(2) {
 	background-color: rgba(62,227,251,0);
 	display: flex;
 	justify-content: space-between;
@@ -71,7 +71,7 @@ header {
 	background-color: #3EE3FB;
 	outline: none;
 }
-.windows>.verification>button {
+.windows>div>button {
 	width: 2.12rem;
 	height: 100%;
 	font-size: 0.24rem;
@@ -82,7 +82,12 @@ header {
 	border-radius: 0.3rem;
 }
 .windows>.submit {
-	background-color: #FFFFFF;
+	width: 5.58rem;
+	height: 0.6rem;
+	outline: none;
+	border-radius: 0.3rem;
+	display: flex;
+	line-height: 0.6rem;	
 }
 .submit>button {
 	width: 100%;
@@ -103,6 +108,49 @@ header {
 	font-size: 0.22rem;
 	color: rgba(0,0,0,0.3);
 }
+
+/*警示框部分*/
+#unWrong {
+	width: 2.34rem;
+	height: 0.4rem;
+	position: fixed;
+	top: 4.62rem;
+	left: 4.2rem;
+	font-size: 0.2rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0.4rem;
+	background-color: #fd383c;
+	border-radius: 0.3rem 0.1rem;
+	
+}
+#pwWrong {
+	width: 2.34rem;
+	height: 0.4rem;
+	position: fixed;
+	top: 6.74rem;
+	left: 4.2rem;
+	font-size: 0.2rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0.4rem;
+	background-color: #fd383c;
+	border-radius: 0.3rem 0.1rem;
+}
+#vcWrong {
+	width: 2.34rem;
+	height: 0.4rem;
+	position: fixed;
+	top: 5.66rem;
+	left: 1.7rem;
+	font-size: 0.2rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0.4rem;
+	background-color: #fd383c;
+	border-radius: 0.3rem 0.1rem;
+}
+
 /*第三方登录*/
 div.thirdparty {
 	width: 100%;
@@ -117,7 +165,7 @@ div.thirdparty {
 }
 div.thirdparty>.third {
 	width: 2.37rem;
-	height: 0.39;
+	height: 0.39rem;
 	display: flex;
 	justify-content: space-between;
 }
